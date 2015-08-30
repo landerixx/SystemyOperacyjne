@@ -1,0 +1,141 @@
+lokalnosc przylegla procesow	
+	int iloscProcesow=10;
+	int minIloscOdwolan=5;
+	int maxIloscOdwolan=1000;
+	int iloscRamek=31;
+	int PromienLokalnosci=-1;
+	int deltaZbioruRoboczego=10;
+
+Proces nr 0: priotytet: 5, ilosc Odwolan: 414, promien: -1,ostateczna przydzielona ilosc ramki: 0  czy zakonczony? false
+Proces nr 1: priotytet: 5, ilosc Odwolan: 112, promien: -1,ostateczna przydzielona ilosc ramki: 0  czy zakonczony? false
+Proces nr 2: priotytet: 5, ilosc Odwolan: 660, promien: -1,ostateczna przydzielona ilosc ramki: 0  czy zakonczony? false
+Proces nr 3: priotytet: 8, ilosc Odwolan: 297, promien: -1,ostateczna przydzielona ilosc ramki: 0  czy zakonczony? false
+Proces nr 4: priotytet: 1, ilosc Odwolan: 839, promien: -1,ostateczna przydzielona ilosc ramki: 0  czy zakonczony? false
+Proces nr 5: priotytet: 0, ilosc Odwolan: 793, promien: -1,ostateczna przydzielona ilosc ramki: 0  czy zakonczony? false
+Proces nr 6: priotytet: 3, ilosc Odwolan: 252, promien: -1,ostateczna przydzielona ilosc ramki: 0  czy zakonczony? false
+Proces nr 7: priotytet: 3, ilosc Odwolan: 120, promien: -1,ostateczna przydzielona ilosc ramki: 0  czy zakonczony? false
+Proces nr 8: priotytet: 9, ilosc Odwolan: 148, promien: -1,ostateczna przydzielona ilosc ramki: 0  czy zakonczony? false
+Proces nr 9: priotytet: 8, ilosc Odwolan: 645, promien: -1,ostateczna przydzielona ilosc ramki: 0  czy zakonczony? false
+
+
+Parralel equal Allocation
+Bledy stron: --> 112   Proces nr: 0 priotytet: 5, ilosc Odwolan: 414, promien: -1,ostateczna przydzielona ilosc ramki: 10  czy zakonczony? true
+Bledy stron: --> 22   Proces nr: 1 priotytet: 5, ilosc Odwolan: 112, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 170   Proces nr: 2 priotytet: 5, ilosc Odwolan: 660, promien: -1,ostateczna przydzielona ilosc ramki: 14  czy zakonczony? true
+Bledy stron: --> 64   Proces nr: 3 priotytet: 8, ilosc Odwolan: 297, promien: -1,ostateczna przydzielona ilosc ramki: 7  czy zakonczony? true
+Bledy stron: --> 210   Proces nr: 4 priotytet: 1, ilosc Odwolan: 839, promien: -1,ostateczna przydzielona ilosc ramki: 31  czy zakonczony? true
+Bledy stron: --> 172   Proces nr: 5 priotytet: 0, ilosc Odwolan: 793, promien: -1,ostateczna przydzielona ilosc ramki: 15  czy zakonczony? true
+Bledy stron: --> 73   Proces nr: 6 priotytet: 3, ilosc Odwolan: 252, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 31   Proces nr: 7 priotytet: 3, ilosc Odwolan: 120, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 38   Proces nr: 8 priotytet: 9, ilosc Odwolan: 148, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 167   Proces nr: 9 priotytet: 8, ilosc Odwolan: 645, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Zsumowana ilosc bledow poszczegolnych procesow wynosi: 1059
+srednia ilosc bledow dla 1 procesu wynosi: 105
+
+equal Allocation!
+Bledy stron: --> 113   Proces nr 0: priotytet: 5, ilosc Odwolan: 414, promien: -1,ostateczna przydzielona ilosc ramki: 4  czy zakonczony? true
+Bledy stron: --> 22   Proces nr 1: priotytet: 5, ilosc Odwolan: 112, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 171   Proces nr 2: priotytet: 5, ilosc Odwolan: 660, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 64   Proces nr 3: priotytet: 8, ilosc Odwolan: 297, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 213   Proces nr 4: priotytet: 1, ilosc Odwolan: 839, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 172   Proces nr 5: priotytet: 0, ilosc Odwolan: 793, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 73   Proces nr 6: priotytet: 3, ilosc Odwolan: 252, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 31   Proces nr 7: priotytet: 3, ilosc Odwolan: 120, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 38   Proces nr 8: priotytet: 9, ilosc Odwolan: 148, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 167   Proces nr 9: priotytet: 8, ilosc Odwolan: 645, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Zsumowana ilosc bledow poszczegolnych procesow wynosi: 1064
+srednia ilosc bledow dla 1 procesu wynosi: 106
+
+
+Controllin the frequency!
+Bledy stron: --> 183   Proces nr: 0 priotytet: 5, ilosc Odwolan: 414, promien: -1,ostateczna przydzielona ilosc ramki: 9  czy zakonczony? true
+Bledy stron: --> 58   Proces nr: 1 priotytet: 5, ilosc Odwolan: 112, promien: -1,ostateczna przydzielona ilosc ramki: 2  czy zakonczony? true
+Bledy stron: --> 262   Proces nr: 2 priotytet: 5, ilosc Odwolan: 660, promien: -1,ostateczna przydzielona ilosc ramki: 7  czy zakonczony? true
+Bledy stron: --> 119   Proces nr: 3 priotytet: 8, ilosc Odwolan: 297, promien: -1,ostateczna przydzielona ilosc ramki: 6  czy zakonczony? true
+Bledy stron: --> 328   Proces nr: 4 priotytet: 1, ilosc Odwolan: 839, promien: -1,ostateczna przydzielona ilosc ramki: 5  czy zakonczony? true
+Bledy stron: --> 304   Proces nr: 5 priotytet: 0, ilosc Odwolan: 793, promien: -1,ostateczna przydzielona ilosc ramki: 14  czy zakonczony? true
+Bledy stron: --> 101   Proces nr: 6 priotytet: 3, ilosc Odwolan: 252, promien: -1,ostateczna przydzielona ilosc ramki: 2  czy zakonczony? true
+Bledy stron: --> 51   Proces nr: 7 priotytet: 3, ilosc Odwolan: 120, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 76   Proces nr: 8 priotytet: 9, ilosc Odwolan: 148, promien: -1,ostateczna przydzielona ilosc ramki: 2  czy zakonczony? true
+Bledy stron: --> 257   Proces nr: 9 priotytet: 8, ilosc Odwolan: 645, promien: -1,ostateczna przydzielona ilosc ramki: 8  czy zakonczony? true
+zostalo 31 ramek
+Zsumowana ilosc bledow poszczegolnych procesow wynosi: 1739
+srednia ilosc bledow dla 1 procesu wynosi: 173
+
+
+
+Controllin the frequency! GLOBAL
+Bledy stron: --> 192   Proces nr: 0 priotytet: 5, ilosc Odwolan: 414, promien: -1,ostateczna przydzielona ilosc ramki: 7  czy zakonczony? true
+Bledy stron: --> 62   Proces nr: 1 priotytet: 5, ilosc Odwolan: 112, promien: -1,ostateczna przydzielona ilosc ramki: 5  czy zakonczony? true
+Bledy stron: --> 271   Proces nr: 2 priotytet: 5, ilosc Odwolan: 660, promien: -1,ostateczna przydzielona ilosc ramki: 8  czy zakonczony? true
+Bledy stron: --> 106   Proces nr: 3 priotytet: 8, ilosc Odwolan: 297, promien: -1,ostateczna przydzielona ilosc ramki: 4  czy zakonczony? true
+Bledy stron: --> 373   Proces nr: 4 priotytet: 1, ilosc Odwolan: 839, promien: -1,ostateczna przydzielona ilosc ramki: 5  czy zakonczony? true
+Bledy stron: --> 357   Proces nr: 5 priotytet: 0, ilosc Odwolan: 793, promien: -1,ostateczna przydzielona ilosc ramki: 14  czy zakonczony? true
+Bledy stron: --> 146   Proces nr: 6 priotytet: 3, ilosc Odwolan: 252, promien: -1,ostateczna przydzielona ilosc ramki: 2  czy zakonczony? true
+Bledy stron: --> 79   Proces nr: 7 priotytet: 3, ilosc Odwolan: 120, promien: -1,ostateczna przydzielona ilosc ramki: 1  czy zakonczony? true
+Bledy stron: --> 53   Proces nr: 8 priotytet: 9, ilosc Odwolan: 148, promien: -1,ostateczna przydzielona ilosc ramki: 8  czy zakonczony? true
+Bledy stron: --> 223   Proces nr: 9 priotytet: 8, ilosc Odwolan: 645, promien: -1,ostateczna przydzielona ilosc ramki: 7  czy zakonczony? true
+zostalo 31 ramek
+Zsumowana ilosc bledow poszczegolnych procesow wynosi: 1862
+srednia ilosc bledow dla 1 procesu wynosi: 186
+
+
+Model strefowy
+Bledy stron: --> 129   Proces nr: 0 priotytet: 5, ilosc Odwolan: 414, promien: -1,ostateczna przydzielona ilosc ramki: 8  czy zakonczony? true
+Bledy stron: --> 51   Proces nr: 1 priotytet: 5, ilosc Odwolan: 112, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 171   Proces nr: 2 priotytet: 5, ilosc Odwolan: 660, promien: -1,ostateczna przydzielona ilosc ramki: 16  czy zakonczony? true
+Bledy stron: --> 87   Proces nr: 3 priotytet: 8, ilosc Odwolan: 297, promien: -1,ostateczna przydzielona ilosc ramki: 5  czy zakonczony? true
+Bledy stron: --> 237   Proces nr: 4 priotytet: 1, ilosc Odwolan: 839, promien: -1,ostateczna przydzielona ilosc ramki: 31  czy zakonczony? true
+Bledy stron: --> 204   Proces nr: 5 priotytet: 0, ilosc Odwolan: 793, promien: -1,ostateczna przydzielona ilosc ramki: 16  czy zakonczony? true
+Bledy stron: --> 91   Proces nr: 6 priotytet: 3, ilosc Odwolan: 252, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 46   Proces nr: 7 priotytet: 3, ilosc Odwolan: 120, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 54   Proces nr: 8 priotytet: 9, ilosc Odwolan: 148, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 190   Proces nr: 9 priotytet: 8, ilosc Odwolan: 645, promien: -1,ostateczna przydzielona ilosc ramki: 8  czy zakonczony? true
+Zsumowana ilosc bledow poszczegolnych procesow wynosi: 1260
+srednia ilosc bledow dla 1 procesu wynosi: 126
+
+MODEL STREFIWOY GLOBAL
+Bledy stron: --> 129   Proces nr: 0 priotytet: 5, ilosc Odwolan: 414, promien: -1,ostateczna przydzielona ilosc ramki: 8  czy zakonczony? true
+Bledy stron: --> 51   Proces nr: 1 priotytet: 5, ilosc Odwolan: 112, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 171   Proces nr: 2 priotytet: 5, ilosc Odwolan: 660, promien: -1,ostateczna przydzielona ilosc ramki: 16  czy zakonczony? true
+Bledy stron: --> 87   Proces nr: 3 priotytet: 8, ilosc Odwolan: 297, promien: -1,ostateczna przydzielona ilosc ramki: 5  czy zakonczony? true
+Bledy stron: --> 235   Proces nr: 4 priotytet: 1, ilosc Odwolan: 839, promien: -1,ostateczna przydzielona ilosc ramki: 31  czy zakonczony? true
+Bledy stron: --> 214   Proces nr: 5 priotytet: 0, ilosc Odwolan: 793, promien: -1,ostateczna przydzielona ilosc ramki: 16  czy zakonczony? true
+Bledy stron: --> 90   Proces nr: 6 priotytet: 3, ilosc Odwolan: 252, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 46   Proces nr: 7 priotytet: 3, ilosc Odwolan: 120, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 54   Proces nr: 8 priotytet: 9, ilosc Odwolan: 148, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 190   Proces nr: 9 priotytet: 8, ilosc Odwolan: 645, promien: -1,ostateczna przydzielona ilosc ramki: 8  czy zakonczony? true
+Zsumowana ilosc bledow poszczegolnych procesow wynosi: 1267
+srednia ilosc bledow dla 1 procesu wynosi: 126
+
+
+
+Parallel proportional allocation!
+Bledy stron: --> 208   Proces nr: 0 priotytet: 1, ilosc Odwolan: 839, promien: -1,ostateczna przydzielona ilosc ramki: 31  czy zakonczony? true
+Bledy stron: --> 172   Proces nr: 1 priotytet: 0, ilosc Odwolan: 793, promien: -1,ostateczna przydzielona ilosc ramki: 11  czy zakonczony? true
+Bledy stron: --> 171   Proces nr: 2 priotytet: 5, ilosc Odwolan: 660, promien: -1,ostateczna przydzielona ilosc ramki: 6  czy zakonczony? true
+Bledy stron: --> 166   Proces nr: 3 priotytet: 8, ilosc Odwolan: 645, promien: -1,ostateczna przydzielona ilosc ramki: 4  czy zakonczony? true
+Bledy stron: --> 113   Proces nr: 4 priotytet: 5, ilosc Odwolan: 414, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 125   Proces nr: 5 priotytet: 8, ilosc Odwolan: 297, promien: -1,ostateczna przydzielona ilosc ramki: 2  czy zakonczony? true
+Bledy stron: --> 125   Proces nr: 6 priotytet: 3, ilosc Odwolan: 252, promien: -1,ostateczna przydzielona ilosc ramki: 2  czy zakonczony? true
+Bledy stron: --> 109   Proces nr: 7 priotytet: 9, ilosc Odwolan: 148, promien: -1,ostateczna przydzielona ilosc ramki: 1  czy zakonczony? true
+Bledy stron: --> 80   Proces nr: 8 priotytet: 3, ilosc Odwolan: 120, promien: -1,ostateczna przydzielona ilosc ramki: 1  czy zakonczony? true
+Bledy stron: --> 82   Proces nr: 9 priotytet: 5, ilosc Odwolan: 112, promien: -1,ostateczna przydzielona ilosc ramki: 1  czy zakonczony? true
+Zsumowana ilosc bledow poszczegolnych procesow wynosi: 1351
+srednia ilosc bledow dla 1 procesu wynosi: 135
+
+
+
+propotional Allocation!
+Bledy stron: --> 210   dla Procesu nr 0: priotytet: 1, ilosc Odwolan: 839, promien: -1,ostateczna przydzielona ilosc ramki: 9  czy zakonczony? true
+Bledy stron: --> 172   dla Procesu nr 1: priotytet: 0, ilosc Odwolan: 793, promien: -1,ostateczna przydzielona ilosc ramki: 4  czy zakonczony? true
+Bledy stron: --> 171   dla Procesu nr 2: priotytet: 5, ilosc Odwolan: 660, promien: -1,ostateczna przydzielona ilosc ramki: 4  czy zakonczony? true
+Bledy stron: --> 166   dla Procesu nr 3: priotytet: 8, ilosc Odwolan: 645, promien: -1,ostateczna przydzielona ilosc ramki: 4  czy zakonczony? true
+Bledy stron: --> 113   dla Procesu nr 4: priotytet: 5, ilosc Odwolan: 414, promien: -1,ostateczna przydzielona ilosc ramki: 3  czy zakonczony? true
+Bledy stron: --> 125   dla Procesu nr 5: priotytet: 8, ilosc Odwolan: 297, promien: -1,ostateczna przydzielona ilosc ramki: 2  czy zakonczony? true
+Bledy stron: --> 125   dla Procesu nr 6: priotytet: 3, ilosc Odwolan: 252, promien: -1,ostateczna przydzielona ilosc ramki: 2  czy zakonczony? true
+Bledy stron: --> 109   dla Procesu nr 7: priotytet: 9, ilosc Odwolan: 148, promien: -1,ostateczna przydzielona ilosc ramki: 1  czy zakonczony? true
+Bledy stron: --> 80   dla Procesu nr 8: priotytet: 3, ilosc Odwolan: 120, promien: -1,ostateczna przydzielona ilosc ramki: 1  czy zakonczony? true
+Bledy stron: --> 82   dla Procesu nr 9: priotytet: 5, ilosc Odwolan: 112, promien: -1,ostateczna przydzielona ilosc ramki: 1  czy zakonczony? true
+Zsumowana ilosc bledow poszczegolnych procesow wynosi: 1353
+srednia ilosc bledow dla 1 procesu wynosi: 135

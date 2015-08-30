@@ -1,0 +1,43 @@
+Reprezentacja wejsciowa
+Proces [Nr=0, momentZgloszenia=33, czasOczekiwania=0, dlugoscFazyProcesora=21, czas pozostaly=21]
+Proces [Nr=1, momentZgloszenia=38, czasOczekiwania=0, dlugoscFazyProcesora=23, czas pozostaly=23]
+Proces [Nr=2, momentZgloszenia=55, czasOczekiwania=0, dlugoscFazyProcesora=8, czas pozostaly=8]
+Proces [Nr=3, momentZgloszenia=134, czasOczekiwania=0, dlugoscFazyProcesora=10, czas pozostaly=10]
+Proces [Nr=4, momentZgloszenia=59, czasOczekiwania=0, dlugoscFazyProcesora=13, czas pozostaly=13]
+Proces [Nr=5, momentZgloszenia=15, czasOczekiwania=0, dlugoscFazyProcesora=2, czas pozostaly=2]
+Proces [Nr=6, momentZgloszenia=20, czasOczekiwania=0, dlugoscFazyProcesora=10, czas pozostaly=10]
+Proces [Nr=7, momentZgloszenia=68, czasOczekiwania=0, dlugoscFazyProcesora=49, czas pozostaly=49]
+Proces [Nr=8, momentZgloszenia=44, czasOczekiwania=0, dlugoscFazyProcesora=59, czas pozostaly=59]
+Proces [Nr=9, momentZgloszenia=117, czasOczekiwania=0, dlugoscFazyProcesora=26, czas pozostaly=26]
+FCFS
+suma oczekiwan to: 491
+sredni czas oczekiwan to:49,10
+Wariancja wynosi: 1 646,89
+Odchylenie standardowe wynosi: 40,58
+
+SJF bez wywlaszczenia
+suma oczekiwan to: 286
+sredni czas oczekiwan to:28,60
+Wariancja wynosi: 1 522,64
+Odchylenie standardowe wynosi: 39,02
+
+
+SJF z wywlaszczeniem
+suma oczekiwan to: 255
+sredni czas oczekiwan to:25,50
+Wariancja wynosi: 1 864,05
+Odchylenie standardowe wynosi: 43,17
+
+
+ROTACYJNY ROT z kwantem 100
+suma oczekiwan to: 491
+sredni czas oczekiwan to:49,10
+Wariancja wynosi: 1 646,89
+Odchylenie standardowe wynosi: 40,58
+
+
+ROTACYJNY ROT z kwantem 12
+suma oczekiwan to: 519
+sredni czas oczekiwan to:51,90
+Wariancja wynosi: 2 089,89
+Odchylenie standardowe wynosi: 45,72

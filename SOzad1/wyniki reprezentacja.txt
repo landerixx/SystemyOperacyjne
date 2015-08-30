@@ -1,0 +1,44 @@
+Reprezentacja wejsciowa
+Proces [Nr=0, momentZgloszenia=105, czasOczekiwania=0, dlugoscFazyProcesora=3, czas pozostaly=3]
+Proces [Nr=1, momentZgloszenia=44, czasOczekiwania=0, dlugoscFazyProcesora=17, czas pozostaly=17]
+Proces [Nr=2, momentZgloszenia=1, czasOczekiwania=0, dlugoscFazyProcesora=8, czas pozostaly=8]
+Proces [Nr=3, momentZgloszenia=0, czasOczekiwania=0, dlugoscFazyProcesora=13, czas pozostaly=13]
+Proces [Nr=4, momentZgloszenia=48, czasOczekiwania=0, dlugoscFazyProcesora=17, czas pozostaly=17]
+Proces [Nr=5, momentZgloszenia=97, czasOczekiwania=0, dlugoscFazyProcesora=7, czas pozostaly=7]
+Proces [Nr=6, momentZgloszenia=76, czasOczekiwania=0, dlugoscFazyProcesora=16, czas pozostaly=16]
+Proces [Nr=7, momentZgloszenia=42, czasOczekiwania=0, dlugoscFazyProcesora=67, czas pozostaly=67]
+Proces [Nr=8, momentZgloszenia=11, czasOczekiwania=0, dlugoscFazyProcesora=91, czas pozostaly=91]
+Proces [Nr=9, momentZgloszenia=23, czasOczekiwania=0, dlugoscFazyProcesora=98, czas pozostaly=98]
+
+ROTACYJNY ROT z kwantem 12
+suma oczekiwan to: 1088
+sredni czas oczekiwan to:108,80
+Wariancja wynosi: 5 374,56
+Odchylenie standardowe wynosi: 73,31
+
+ROTACYJNY ROT z kwantem 210
+suma oczekiwan to: 1452
+sredni czas oczekiwan to:145,20
+Wariancja wynosi: 10 092,96
+Odchylenie standardowe wynosi: 100,46
+
+SJF z wywlaszczeniem
+suma oczekiwan to: 436
+sredni czas oczekiwan to:43,60
+Wariancja wynosi: 5 025,24
+Odchylenie standardowe wynosi: 70,89
+
+
+SJF bez wywlaszczenia
+suma oczekiwan to: 640
+sredni czas oczekiwan to:64,00
+Wariancja wynosi: 4 561,40
+Odchylenie standardowe wynosi: 67,54
+
+
+FCFS
+suma oczekiwan to: 1452
+sredni czas oczekiwan to:145,20
+Wariancja wynosi: 10 092,96
+Odchylenie standardowe wynosi: 100,46
+
